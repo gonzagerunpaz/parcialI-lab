@@ -123,7 +123,6 @@ Los usuarios que sí cumplen todas las reglas son:
 1. carloslopez
 2. elenasanchez
 
-
 ## Puntos extras para el 10 de nota
 
 1. Generar un nuevo endpoind llamado **/validador/con-reglas** que reutilice el máximo posible del codigo realizado en el endpoint anterior **/validador** para que en la salida de este nuevo endpoint se incluya ls reglas que no cuemple cada usuario.
@@ -146,17 +145,17 @@ Ejemplo:
 
 2. Utilizando parte del código que hay implementado crear un nuevo endpoint que retorne los ususarios que si cumple con las reglas. Al idea es reutilziar codigo que hayan realizado. El endpoint será llamado **/usuarios-correctos**
 
-````
+Siguiente con el ejemplo. El resultado debería ser:
+
+```
 [
     {
-    "userName": "carloslopez",
-    "email": "carlos.lopez@yahoo.com",
-    "password": "clopez#2023"
-  },  
-  {
-    "userName": "elenasanchez",
-    "email": "elena.sanchez@hotmail.com",
-    "password": "elenita=1234"
-  }
+        "userName": "carloslopez",
+        "email": "carlos.lopez@yahoo.com"
+    },
+    {
+        "userName": "elenasanchez",
+        "email": "elena.sanchez@hotmail.com"
+    }
 ]
-````
+```
