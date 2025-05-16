@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const reglas = [
   // Regla 1: Longitud mínima de 8 caracteres
   {
@@ -59,6 +58,3 @@ const reglas = [
 ];
 
 module.exports = reglas;
-=======
-
->>>>>>> 161aca3 (Enunciado)
